@@ -36,7 +36,7 @@ LOCAL_SRC_FILES := \
     tv_input.cpp \
     TvInputIntf.cpp
 
-LOCAL_MODULE := tv_input.amlogic
+LOCAL_MODULE := tv_input.$(TARGET_PRODUCT)
 LOCAL_MODULE_TAGS := optional
 LOCAL_C_INCLUDES += \
     $(LIB_TV_BINDER_PATH)/include	\
